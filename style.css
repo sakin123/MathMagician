@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+marquee{
+  background: #FFAF00;
+  margin: 0;
+  padding: 0;
+}
+ .div {
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #05091f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 100vh;
+  overflow:hidden;
+}
+h2{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: orangered;
+}
+#que{
+  padding-top: 10px;
+  color: #FFA600;
+}
+h3{
+  color: #FFBF00;
+}
+.queBar{
+  width: 250px;
+  height: 100vh;
+  overflow:scroll;
+  background: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.1));
+  height:100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.4); 
+}
+input,button{
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+#ans{
+  width: 60%;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#submit,#start,#rule{
+  width: 35%;
+  background: #FF5200;
+  color: #fff;
+  max-width: 100px;
+}
+button:hover{
+  background: #3D4140;
+}
+.point-info{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.point-info h3{
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  color: firebrick;
+}
+.result #correct{
+  color: green;
+}
+.result #incorrect{
+  color: red;
+}
+
+
+.game{
+  width: 750px;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cr1{
+  width: 750px;
+  height: 750px;
+  position: relative;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid white;
+transition: 2s;
+
+}
+.cr2{
+  width: 550px;
+  height: 550px;
+  border: 2px solid white;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+justify-content: center;
+align-items: center;
+transform: rotate(90deg);
+}
+.mars{
+  width: 25%;
+  height: 25%;
+  background: blue;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: translate(50%,50%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime 3s linear infinite;
+}
+.cr3{
+  width: 350px;
+  height: 350px;
+  border: 2px solid white;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+justify-content: center;
+align-items: center;
+transform: rotate(180deg);
+}
+.cr4 {
+  width: 150px;
+  height: 150px;
+  background: gold;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime 3s linear infinite;
+}
+
+.mars1{
+  background: mediumvioletred;
+}
+.mars2{
+  background: greenyellow;
+}
+.mars3{
+  background: orangered;
+  transform: translate(45%,45%)
+}
+@keyframes anime{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes solar{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+p{color: red;}
+.h{
+    width: auto;
+    height: auto;
+    border:1px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}

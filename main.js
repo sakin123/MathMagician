@@ -51,7 +51,7 @@ function mathMagician() {
       maxQue = 10;
       posPoints = 2;
       negPoints = 1;
-      target = 15 + Math.ceil(Math.random() * 5);
+      target = 5;
       document.getElementById('target').innerHTML =`target : ${target}`;
       range = 10;
       low = 0;
